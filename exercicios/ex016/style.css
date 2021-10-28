@@ -1,0 +1,13 @@
+body{ 
+    background-color: coral;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;
+}
+h1{
+    color: darkmagenta;
+    background-color: aliceblue;
+}
+h2{
+    color: deeppink;
+}

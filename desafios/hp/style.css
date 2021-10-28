@@ -1,0 +1,182 @@
+@charset "UTF-8";
+/*
+cores: 
+#3391CC -azul claro
+#3D82AD -azul medio
+#0A2B40 - azul forte
+#966929 - amarelo escuro
+#CC8C33 - amarelo bege
+*/
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+@font-face {
+    font-family: harry potter;
+    src: url(fonte/HARRYP__.TTF);
+}
+:root{
+    --cor1: #3391cc75;
+    --cor2: #3D82AD;
+    --cor3: #0A2B40;
+    --cor4: #966929;
+    --cor5: #cc8c339a;
+
+    --fonte-destaque: 'MonteCarlo', 'cursive';
+    --fonte-artigo: 'harry potter', 'cursive';
+    --fonte-padrão: arial, verdana, sans-serif;
+}
+*{
+    margin: 0px;
+}
+body{
+    background-color: var(--cor5);
+}
+
+header{
+    background-color: var(--cor3);
+    color: white;
+    padding-top: 30px;
+}
+header h1{
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    text-align: center;
+    padding-bottom: 30px;
+}
+header > nav{
+    background-color: var(--cor4);
+    padding: 6px;
+    box-shadow: 0px 1px 9px 0px #00000067;
+}
+header nav> a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+nav >a:hover{
+    background-color: var(--cor5);
+    border-radius: 10px;
+    padding: 3px;
+}
+main{
+    background-color: white;
+    font-family: var(--fonte-padrão);
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0px 0px 8px 0px #00000064;
+}
+
+main h1{
+    font-family: var(--fonte-artigo);
+    font-size: 3.5em;
+    font-weight: normal;
+    text-align: center;
+    padding: 25px 0px 15px 0px;
+}
+main h2{
+    font-family: var(--fonte-padrão);
+    font-size: 1.4em;
+    padding: 10px 0px 10px 10px;
+}
+main p{
+    line-height: 2em;
+    text-align: justify;
+    text-indent: 25px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+main ol{
+    line-height: 1.5em;
+}
+main a{
+    background-color: var(--cor1);
+    color: black;
+    text-decoration: none;
+}
+main a:hover{
+    background-color: var(--cor5);
+    font-weight: bold;
+    text-decoration: underline;
+}
+main a.external::after{
+    content: '🔗';
+}
+main img{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+main img.pequena{
+    max-width: 500px;
+}
+
+div.video{
+    margin: -25px -10px -10px -10px;
+    padding: 5px;
+    padding-bottom: 57%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+aside{
+    background-color: var(--cor2);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+aside >h3{
+    font-family: var(--fonte-padrão);
+    font-weight: normal;
+    font-size: 1.5em;
+    color: white;
+    background-color: var(--cor3);
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+aside >p{
+    text-align: auto;
+    font-size: 1.2em;
+    padding: 10px;
+    margin-bottom: -11px;
+}
+aside ul{
+    list-style-type: "\✏️\00A0\00A0";
+    padding-bottom: 20px;
+    line-height: 1.5em;
+}
+footer{
+    background-color: var(--cor3); 
+    color: white;
+}
+footer p.pri{
+    padding: 20px 0px;
+    margin: 0px;
+    text-align: center;
+}
+footer p.ult{
+    padding-bottom: 5px;
+    text-align: center;
+}
+footer > div{
+    text-align: center;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: var(--cor4);
+    text-decoration: underline;
+}
+footer img.eu{
+   padding-top: 20px;
+    padding-bottom: 40px;
+}

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 110%;*/
+}
+body{
+   background-color: #172c3f;
+}
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-color: white;
+    border-style: groove;
+    border-radius: 6px;
+    width: 700px;
+    padding: 25px;
+    margin: auto
+}
+h1, h2{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color:#07589b;
+}

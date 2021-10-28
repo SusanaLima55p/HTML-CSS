@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+body{
+    background-image:linear-gradient(to right, #BCA6F5, #9EB5FA);
+}
+header{
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-style: groove;
+    width: 700px;
+    padding: 15px;
+    margin: auto;
+}
+aside{
+margin: 1px;
+
+}
+main{
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    border-style: groove;
+    margin: auto;
+    width: 700px;
+    padding: 15px;
+    text-align: justify;
+    font-family: 'Nunito', sans-serif;
+}
+h1{
+    margin: auto;
+    width: 471px;
+    border: 5px solid #5d5bd5;
+    padding: 0px;
+    color: #5d5bd5;
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    font-size: 45px
+}
+h2{
+    background-color: #8D8CDE;
+    font-size: 20px;
+    color: white;
+}
+h3{
+    font-size: 16px;
+}
+p{
+    text-indent: 20px;
+}
+a{
+    display: inline-block;
+}
+a.indice{
+    text-decoration: none;
+}
+h4{
+    display: block;
+    margin-block-start: -0.1em;
+    margin-block-end: 0.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold
+}
