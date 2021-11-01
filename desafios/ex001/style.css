@@ -28,8 +28,6 @@ header{
     padding-left: 30px;
     box-shadow: 0px 5px 20px #0000008a;
 }
-}
-
 header h1{
     color: white;
     font-size: 2.7em;
@@ -99,13 +97,14 @@ article ul>li{
 ::marker{
     padding: 0px 0px 0px 10px;
 }
-    
-    
-}
 
 aside{
     background-color: var(--cor1);
     border-radius: 15px;
+    text-align: center;
+}
+aside ul > li{
+    text-align: center;
 }
 
 footer{
