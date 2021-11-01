@@ -44,6 +44,9 @@ header div{
     height: 20px;
     
 }
+header div > img{
+    margin-bottom:  -12px;
+}
 
 header div > input{
     border-radius: 8px;
@@ -102,9 +105,18 @@ aside{
     background-color: var(--cor1);
     border-radius: 15px;
     text-align: center;
+    padding-bottom: 15px;
 }
-aside ul > li{
-    text-align: center;
+aside h2{
+    padding: 15px 0px 15px 0px;
+}
+aside a{
+    text-decoration: none;
+    color:black;
+}
+aside a:hover{
+    background-color: var(--cor2);
+    color: white;
 }
 
 footer{
