@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Laila:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
 
 :root{
     --cor1:#0B82B3;
@@ -8,7 +8,7 @@
     --cor3:#308aae9f;
 
     --fonte-padrao: arial, verdana, sans-serif;
-    --fonte-titulo: 'Laila', sans-serif;;
+    --fonte-titulo: 'Sofia', 'cursive';
 }
 
 *{
@@ -16,14 +16,14 @@
 }
 
 body{
-    background-color: var(--cor3);
+    background-color: #308aae9f;
 }
 
 header{
     background-color: var(--cor2);
     font-family: var(--fonte-titulo);
     color: white;
-    padding-top: 35px;
+    padding-top: 20px;
     padding-right: 30px;
     padding-left: 30px;
     box-shadow: 0px 5px 20px #0000008a;
@@ -31,7 +31,7 @@ header{
 header h1{
     color: white;
     font-size: 2.7em;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 50px;
     
 
@@ -55,7 +55,7 @@ header div > input{
 main{
     background-color: var(--cor3);
     font-family: var(--fonte-padrão);
-    max-width: 800px;
+    max-width: 100%;
     margin: auto auto 100px auto;
     padding: 10px;
     box-shadow: 0px 6px 15px 0px #0000002c;
@@ -80,27 +80,20 @@ article{
     box-shadow: 0px 3px 20px #0000002c;
 }
 
+article h2{
+    padding-bottom: 15px;
+}
+
 article p{
     text-align: justify;
     text-indent: 20px;
     font-family: var(--fonte-padrao);
     line-height: 2em;
+    padding-bottom: 10px;
 }
-
-article h2{
-    padding-bottom: 15px;
+article p.item::before{
+    content: "●";
 }
-article ul>li{
-    line-height: 2em;
-    text-align: justify;
-    font-family: var(--fonte-padrao);
-    text-indent: 20px;
-    padding-bottom: 20px;
-}
-::marker{
-    padding: 0px 0px 0px 10px;
-}
-
 aside{
     background-color: var(--cor1);
     border-radius: 15px;
@@ -117,6 +110,9 @@ aside a{
 aside a:hover{
     background-color: var(--cor2);
     color: white;
+}
+aside a::after{
+    content: "🔗";
 }
 
 footer{
