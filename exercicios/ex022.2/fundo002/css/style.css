@@ -1,0 +1,6 @@
+body{
+    background-image: url('/exercicios/ex022.2/imagens/pexels-dids-2791043p.jpg');
+    background-size: 200px 250px;
+    background-repeat: repeat-x;
+    background-clip: padding-box;
+}
