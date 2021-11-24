@@ -1,0 +1,17 @@
+body{
+    height: 100vh;
+    background-color: rosybrown;
+    background-image: url(/exercicios/ex022.2/imagens/wallpaper002.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main{
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid pink;
+    border-radius: 10px;
+}
