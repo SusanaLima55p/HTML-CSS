@@ -1,0 +1,22 @@
+#container{
+    position: relative;
+    height: 500px;
+    background-image: url(/exercicios/ex022.2/imagens/target001.png);
+    background-size: 100% 100%;
+    background-color: lightcoral;
+}
+
+#conteudo{
+    background-image: url(/exercicios/ex022.2/imagens/target001.png);
+    background-size: 100% 100%;
+    background-color: lightseagreen;
+
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
